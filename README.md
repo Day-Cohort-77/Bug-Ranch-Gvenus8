@@ -76,11 +76,11 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > The value of drovers is the return value of the function hiredriver when cattletodrive is passed as its parameter.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+drover is a single object of drovers, while drovers is an array.   
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > [Your public Loom URL here](https://www.loom.com/share/3783eafffaea4e5b9c0ceb54e86fba99)
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,12 +88,14 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
-5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
-6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > a traditional loop, first we set the value of forestNumber to 0. we run the loop while the value forestnumber is less than 0, and increment the varible by 1 after each loop. with journey.push("forest"), we are taking the "string" "forest" and adding it the the end of the varible journey. .push is a method that allows us to do so.
+5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible. 
 
+database is an object whose value is two arrays. drovers and cattletypes.
+
+6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
+we are defining the parameter of the function, the value will be defined when we assign an argument to it.
+.
 ## When You Are Done
 
 After you have answered all the questions above, you need to push all of your code back up to Github. Follow these instructions.
